@@ -1,11 +1,12 @@
 import 'dart:convert'as convert;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:lapakberkah77/model/place_model.dart';
 import 'package:lapakberkah77/repositories/places/base_places_repositories.dart';
 import 'package:http/http.dart'as http;
 import '../../model/place_autocomplete_model.dart';
 
 class PlaceRepository extends BasePlaceRepository{
-  final String key = 'AIzaSyDpDa07d9KMrd_yxuV-zLrj4agzih_GsVQ';
+  final String? key = dotenv.env['API_KEY'];
   final String types = 'geocode';
 
   @override
