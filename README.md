@@ -2,7 +2,7 @@
 
 Aplikasi untuk project akhir sidang
 
-##Apa yang saya pelajari?
+## Apa yang saya pelajari?
 
 -Membuat UI sesuai dengan design yang di tentukan
 
